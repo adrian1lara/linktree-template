@@ -3,7 +3,7 @@ A simple and costumizable linktree template for managing and sharing multiple li
 
 ## Demo
 You can see a live demo of the template here: [adrian1lara-linktree](https://adrian1lara.vercel.app/)
-
+![linktree-template-gif](/linktree-template.gif)
 
 ## Installation
 To set up this linktree template on your own system, follow these steps:
