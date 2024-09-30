@@ -1,8 +1,8 @@
 # Astro Linktree-template
-A cimple and costumizable linktree template for managing and sharing multiple links on a single page. This project is designed to be user-frendly and adapatable for personal or professional use.
+A simple and costumizable linktree template for managing and sharing multiple links on a single page. This project is designed to be user-frendly and adapatable for personal or professional use.
 
 ## Demo
-You can see a live demo of the tempplate here: ![adrian1lara-linktree](https://adrian1lara.vercel.app/)
+You can see a live demo of the template here: !(adrian1lara)[https://adrian1lara.vercel.app/]
 
 
 ## Installation
@@ -45,7 +45,3 @@ All commands are run from the root of the project, from a terminal:
 | `npm run preview`         | Preview your build locally, before deploying     |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
