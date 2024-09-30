@@ -2,7 +2,7 @@
 A simple and costumizable linktree template for managing and sharing multiple links on a single page. This project is designed to be user-frendly and adapatable for personal or professional use.
 
 ## Demo
-You can see a live demo of the template here: !(adrian1lara)[https://adrian1lara.vercel.app/]
+You can see a live demo of the template here: [adrian1lara-linktree](https://adrian1lara.vercel.app/)
 
 
 ## Installation
