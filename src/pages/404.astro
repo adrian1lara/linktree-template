@@ -1,0 +1,46 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="not found">
+    <main>
+        <div>
+            <h1>404</h1>
+            <p class="p1">Sorry, we were unable to find that page.</p>
+            <p>Back to <a href="/">home page</a></p>
+        </div>
+    </main>
+</Layout>
+
+<style>
+    body {
+        height: 100dvh;
+
+    }
+main {
+        color: #fff;
+        height: 100%;
+        align-content: center;
+    }
+
+    div {
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 100px;
+        margin: auto;
+    }
+
+    .p1 {
+        font-size: large;
+    }
+
+    a{
+        color: #fff;
+    }
+
+</style>
