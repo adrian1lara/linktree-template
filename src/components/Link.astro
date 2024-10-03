@@ -1,0 +1,71 @@
+---
+interface Props {
+    icon: string;
+    text: string;
+    href: string;
+}
+
+const {icon, text, href} = Astro.props;
+---
+
+<li>
+    <a class="link" href={href}>
+        <div class="box-icon box">
+            <p class="blur">{icon}</p>
+        </div>
+        <div class="box-text box">
+            <p class="blur">{text}</p>
+        </div>
+    </a>
+</li>
+
+<style>
+    li {
+        list-style: none;
+        border-radius: 25px;
+        background-color: #222831;
+    }
+
+    li:hover {
+        background-color: #0d2a34;
+        transition: 0.3s ease-in;
+        backdrop-filter: blur(10px);
+    }
+
+    a {
+        display: flex;
+        color: white;
+        justify-content: space-between;
+    }
+
+    .box {
+        padding: 5px;
+    }
+
+    .link {
+        display: flex;
+        text-decoration: none;
+    }
+
+    .box-icon {
+        min-width: 20%;
+        text-align: center;
+    }
+
+    .box-text {
+        min-width: 60%;
+        text-align: left;
+    }
+    
+    .blur {
+        padding: 5px;
+        border-radius: 10px;
+        width: fit-content;
+    }
+
+    .blur:hover {
+        background: rgba(255, 255, 255, 0.077);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    }
+</style>
